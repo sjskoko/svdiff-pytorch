@@ -21,7 +21,7 @@ import torch.utils.checkpoint
 from diffusers.configuration_utils import ConfigMixin, register_to_config
 from diffusers.loaders import UNet2DConditionLoadersMixin
 from diffusers.utils import BaseOutput, logging
-from diffusers.models.cross_attention import AttnProcessor
+from .cross_attention import AttnProcessor
 from svdiff_pytorch.diffusers_models.embeddings import GaussianFourierProjection, TimestepEmbedding, Timesteps
 from diffusers.models.modeling_utils import ModelMixin
 from svdiff_pytorch.diffusers_models.unet_2d_blocks import (
