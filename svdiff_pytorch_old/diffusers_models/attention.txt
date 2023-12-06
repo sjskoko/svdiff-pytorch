@@ -1,0 +1,5 @@
+AdaGroupNorm: model/normalization.py 로 이동
+
+AttentinBlock: model/attention_processer의 Attention으로 교체
+
+-> attention 을 normalization.py 및 attention_processer로 분할 해야함
